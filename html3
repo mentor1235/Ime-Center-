@@ -1,0 +1,15 @@
+// Legg til disse funksjonene for CV-bygger
+function initRemoveButtons() {
+    document.querySelectorAll('.remove-entry').forEach(button => {
+        button.addEventListener('click', function() {
+            this.closest('.experience-entry, .education-entry').remove();
+            generateCVPreview();
+        });
+    });
+}
+
+// Initialiser ved lasting
+document.addEventListener('DOMContentLoaded', function() {
+    initRemoveButtons();
+    generateCVPreview();
+});
