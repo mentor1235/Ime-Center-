@@ -1,0 +1,33 @@
+<!-- SOS Button -->
+<button class="discrimination-btn" id="discriminationBtn">
+    <i class="fas fa-exclamation-triangle"></i>
+</button>
+
+<!-- Modal for discrimination reporting -->
+<div id="discriminationModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Rapporter Diskriminering</h2>
+        <form id="discriminationForm">
+            <div class="form-group">
+                <label>Hva skjedde?</label>
+                <textarea placeholder="Beskriv hendelsen..." required></textarea>
+            </div>
+            <div class="form-group">
+                <label>Når skjedde det?</label>
+                <input type="date" required>
+            </div>
+            <div class="form-group">
+                <label>Hvor skjedde det?</label>
+                <input type="text" placeholder="Sted/Adresse" required>
+            </div>
+            <div class="form-group">
+                <label>Kontaktinfo (valgfritt)</label>
+                <input type="text" placeholder="E-post eller telefon">
+            </div>
+            <button type="submit" class="btn btn-discrimination">
+                <i class="fas fa-paper-plane"></i> Send Rapport
+            </button>
+        </form>
+    </div>
+</div>
