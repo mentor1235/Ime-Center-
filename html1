@@ -1,0 +1,14 @@
+<div class="resource-card">
+    <div class="resource-header discrimination-help">
+        Diskrimineringshjelp
+    </div>
+    <div class="resource-content">
+        <ul class="resource-list">
+            <li><i class="fas fa-scale-balanced"></i> Diskrimineringsnemnda</li>
+            <li><i class="fas fa-gavel"></i> Antirasistisk Senter</li>
+            <li><i class="fas fa-people-arrows"></i> MiRA Senter</li>
+            <li><i class="fas fa-hands-helping"></i> Likestillings- og diskrimineringsombudet</li>
+            <li><i class="fas fa-phone-volume"></i> Diskrimineringshjelpetelefon: 22 33 44 55</li>
+        </ul>
+    </div>
+</div>
